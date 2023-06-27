@@ -4,7 +4,7 @@ import { TrackServive } from './track.service';
 import { MongooseModule } from '@nestjs/mongoose';
 import { Track, TrackSchema } from './schemas/track.schema';
 import { Comment, CommentSchema } from './schemas/comments.schema';
-import { FileService } from './file/file.service';
+import { FileService } from '../file/file.service';
 
 @Module({
   imports: [
